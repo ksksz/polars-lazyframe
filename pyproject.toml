@@ -1,0 +1,12 @@
+[project]
+name = "polars-lazyframe-analysis"
+version = "0.1.0"
+description = "Polars LazyFrame"
+requires-python = ">=3.10"
+dependencies = ["polars==2.0.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

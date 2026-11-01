@@ -1,0 +1,9 @@
+.venv/
+.idea/
+.DS_Store
+__pycache__/
+.pytest_cache/
+.build/
+*.pyc
+*.egg-info/
+data/sales.csv
